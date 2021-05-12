@@ -1,16 +1,31 @@
-h1  {
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header {
     background-color: #004175;
-    font-family: Open Sans;
-    color: white;
     padding: 15px;
     border-bottom: 5px solid #89DEEF;
 }
+h1 {
+    font-family: 'Open Sans';
+    color: white;
+}
 h3, p {
-    font-family: Open Sans;
+    font-family: 'Open Sans';
 }
 h4 {
-    font-family: Oswald;
+    font-family: 'Oswald';
 }
 li {
-    font-family: Open Sans;  
+    font-family: 'Open Sans';  
+    display: inline-block;
+    padding: 5px;
+    border-radius: 50px;
+    background-color: #89DEEF;
+}
+ul {
+    list-style-type: none;
+    display: inline-block;
 }
