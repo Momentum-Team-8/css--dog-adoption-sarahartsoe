@@ -97,3 +97,6 @@ div > p {
 footer {
     display: flex;
 }
+.top {
+    margin-left: 15px;
+}
