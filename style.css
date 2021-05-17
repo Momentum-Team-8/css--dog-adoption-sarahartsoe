@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #004175;
+    padding: 15px;
+    border-bottom: 5px solid #89DEEF;
+}
+h1 {
+    font-family: 'Open Sans';
+    color: white;
+}
+h3, p {
+    font-family: 'Open Sans';
+}
+h4 {
+    font-family: 'Oswald';
+}
+li {
+    font-family: 'Open Sans';  
+    font-size: 15px;
+    display: inline-flex;
+    padding: 3px;
+    margin: 3px;
+    flex-wrap: wrap;
+    border-radius: 50px;
+    background-color: #89DEEF;
+    background-size: contain;
+    background-repeat: no-repeat;
+    word-wrap: normal;
+}
+ul {
+    list-style-type: none;
+    display: inline-block;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: fit-content;
+    height: fit-content;
+}
+div {
+    vertical-align: top;
+    padding: 5px;
+    margin: 10px;
+    width: 335px;
+}
+img {
+    width: 350px;
+}
+.donate {
+    text-align: center;
+    font-size: 50px;
+    padding: 75px;
+    margin: 0;
+    background: linear-gradient(
+        rgba(166, 169, 240, 0.6),
+        rgba(166, 169, 240, 0.6)
+    ),
+    url("starter_files/images/donate.jpg");
+    background-size: 100%;
+    flex-grow: 1;
+}
+.volunteer {
+    text-align: center;
+    font-size: 50px;
+    padding: 75px;
+    margin: 0;
+    background: linear-gradient(
+        rgba(166, 169, 240, 0.6),
+        rgba(166, 169, 240, 0.6)
+    ),
+    url("starter_files/images/volunteer.jpg");
+    background-size: 100%;
+    flex-grow: 1;
+}
+.location {
+    text-align: center;
+    font-size: 50px;
+    padding: 75px;
+    margin: 0;
+    background: linear-gradient(
+        rgba(166, 169, 240, 0.6),
+        rgba(166, 169, 240, 0.6)
+    ),
+    url("starter_files/images/location.png");
+    background-size: 100%;
+    flex-grow: 1;
+}
+div > p {
+    font-family: 'Oswald';
+    color: white;
+}
+footer {
+    display: flex;
+}
+.top {
+    margin-left: 15px;
+}
